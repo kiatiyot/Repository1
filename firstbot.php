@@ -37,6 +37,11 @@ if (!is_null($events['events'])) //check ค่าในตัวแปร $even
                 {
                     $txtback = 'ดีจร้า';
                 }
+                if ($txtin == 'สบายดีไหม')
+                {
+                    $txtback = 'สบายดีจ้า';
+                }
+
             reply_msg($txtback,$replyToken);      
         }
     }
